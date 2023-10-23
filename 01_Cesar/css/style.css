@@ -1,0 +1,54 @@
+body {
+    background-color: #f2e4e4; /* Color de fondo */
+}
+
+.container {
+    background-color: #e1f7f7; /* Color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #6d5858; /* Color del título */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #6d5858; /* Color de etiquetas */
+}
+
+textarea, input[type="range"] {
+    background-color: #f5f2f2; /* Color de fondo de los elementos de entrada */
+    border: 1px solid #d3c8c8; /* Borde de los elementos de entrada */
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+textarea:disabled {
+    background-color: #d3d3d3; /* Color de fondo de campos deshabilitados */
+    color: #333;
+}
+
+hr {
+    border-color: #6d5858; /* Color de la línea horizontal */
+}
+button{
+    padding: 10px 20px;
+    background-color: #3e50f1;
+    color: #fff;rgb(51, 51, 51)rgb(12, 107, 216)
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: #14b86b;
+}
